@@ -13,15 +13,19 @@ struct LoginView: View {
     
     var body: some View {
         VStack {
-            HeaderView()
+            HeaderView(title: "To Do List",
+                       subtitle: "Get things done",
+                       angle: 15,
+                       backgroud: .green)
             
             Form {
                 TextField("Email Address",
                           text: $email)
-                .textFieldStyle(RoundedBorderTextFieldStyle())
-                SecureField("Email Address",
-                            text: $email)
-                .textFieldStyle(RoundedBorderTextFieldStyle())
+                .textFieldStyle(DefaultTextFieldStyle())
+                
+                SecureField("Password",
+                            text: $password)
+                .textFieldStyle(DefaultTextFieldStyle())
                 
                 Button {
                     
@@ -35,6 +39,7 @@ struct LoginView: View {
                             .bold()
                     }
                 }
+                .padding()
             }
             
             VStack {
@@ -49,6 +54,7 @@ struct LoginView: View {
         Spacer()
     }
 }
+
 
 struct LoginView_Previews: PreviewProvider {
     static var previews: some View {
