@@ -26,6 +26,12 @@ struct RegisterView: View {
                     .textFieldStyle(DefaultTextFieldStyle())
                 TextField("Password", text: $passord)
                     .textFieldStyle(DefaultTextFieldStyle())
+                
+                TLButton(tile: "Create account",
+                         background: .blue
+                ){
+                    
+                }
             }
             Spacer()
         }

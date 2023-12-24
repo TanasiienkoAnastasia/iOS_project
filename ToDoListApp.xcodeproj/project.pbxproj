@@ -33,6 +33,7 @@
 		1106F7F92B16BE9D00D5E3C5 /* RegisterViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1106F7F82B16BE9D00D5E3C5 /* RegisterViewViewModel.swift */; };
 		1106F7FB2B16BEEA00D5E3C5 /* ToDoListItemViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1106F7FA2B16BEEA00D5E3C5 /* ToDoListItemViewViewModel.swift */; };
 		1106F7FF2B16C3A400D5E3C5 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1106F7FE2B16C3A400D5E3C5 /* HeaderView.swift */; };
+		11E16BC62B38B82500E5DB85 /* TLButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E16BC52B38B82500E5DB85 /* TLButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -80,6 +81,7 @@
 		1106F7F82B16BE9D00D5E3C5 /* RegisterViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewViewModel.swift; sourceTree = "<group>"; };
 		1106F7FA2B16BEEA00D5E3C5 /* ToDoListItemViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListItemViewViewModel.swift; sourceTree = "<group>"; };
 		1106F7FE2B16C3A400D5E3C5 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		11E16BC52B38B82500E5DB85 /* TLButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TLButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -177,6 +179,7 @@
 				1106F7E42B16B87800D5E3C5 /* RegisterView.swift */,
 				1106F7DE2B16B5FC00D5E3C5 /* ToDoListItemsView.swift */,
 				1106F7FE2B16C3A400D5E3C5 /* HeaderView.swift */,
+				11E16BC52B38B82500E5DB85 /* TLButton.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -360,6 +363,7 @@
 				1106F7EF2B16BD7F00D5E3C5 /* MainViewViewModel.swift in Sources */,
 				1106F7E72B16B97A00D5E3C5 /* ToDoListView.swift in Sources */,
 				1106F7DF2B16B5FC00D5E3C5 /* ToDoListItemsView.swift in Sources */,
+				11E16BC62B38B82500E5DB85 /* TLButton.swift in Sources */,
 				1106F7E52B16B87800D5E3C5 /* RegisterView.swift in Sources */,
 				1106F7E92B16BCE300D5E3C5 /* User.swift in Sources */,
 				1106F7DD2B16B48C00D5E3C5 /* ProfileView.swift in Sources */,

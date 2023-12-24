@@ -27,20 +27,16 @@ struct LoginView: View {
                             text: $password)
                 .textFieldStyle(DefaultTextFieldStyle())
                 
-                Button {
+                TLButton(tile: "Log In",
+                         background: .green
+                ){
                     
-                } label: {
-                    ZStack {
-                        RoundedRectangle(cornerRadius: 10)
-                            .foregroundColor(Color.blue)
-                        
-                        Text("Log In")
-                            .foregroundColor(Color.white)
-                            .bold()
-                    }
                 }
-                .padding()
+                
+                
             }
+            
+            .offset(y: -50)
             
             VStack {
                 Text("New around her?")
