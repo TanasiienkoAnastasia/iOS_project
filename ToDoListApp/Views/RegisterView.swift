@@ -22,8 +22,13 @@ struct RegisterView: View {
             Form {
                 TextField("Full name", text: $name)
                     .textFieldStyle(DefaultTextFieldStyle())
+                    .autocorrectionDisabled()
+                
                 TextField("Email address", text: $email)
                     .textFieldStyle(DefaultTextFieldStyle())
+                    .autocapitalization(/*@START_MENU_TOKEN@*/.none/*@END_MENU_TOKEN@*/)
+                    .autocorrectionDisabled()
+                
                 TextField("Password", text: $passord)
                     .textFieldStyle(DefaultTextFieldStyle())
                 
@@ -32,6 +37,7 @@ struct RegisterView: View {
                 ){
                     
                 }
+                .padding()
             }
             Spacer()
         }
