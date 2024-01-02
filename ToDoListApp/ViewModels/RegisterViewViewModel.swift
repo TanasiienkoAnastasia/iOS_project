@@ -4,6 +4,7 @@
 //
 //  Created by Oleksandr on 29.11.2023.
 //
+import FirebaseFirestore
 import FirebaseAuth
 import Foundation
 
@@ -29,7 +30,16 @@ class RegisterViewViewModel: ObservableObject {
     }
     
     private func insertUserRecord(id: String) {
+        let newUser = User(id: id,
+                           name: name,
+                           email: email,
+                           joined: Date().timeIntervalSince1970)
         
+        let db = Firestore.firestore()
+        
+        db.collection("users")
+            .document(id)
+            .setData(documentData: [String: Any])
     }
     
     

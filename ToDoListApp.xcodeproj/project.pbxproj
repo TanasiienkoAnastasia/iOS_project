@@ -33,6 +33,7 @@
 		1106F7F92B16BE9D00D5E3C5 /* RegisterViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1106F7F82B16BE9D00D5E3C5 /* RegisterViewViewModel.swift */; };
 		1106F7FB2B16BEEA00D5E3C5 /* ToDoListItemViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1106F7FA2B16BEEA00D5E3C5 /* ToDoListItemViewViewModel.swift */; };
 		1106F7FF2B16C3A400D5E3C5 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1106F7FE2B16C3A400D5E3C5 /* HeaderView.swift */; };
+		11967B9E2B4484D000704481 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 11967B9D2B4484D000704481 /* FirebaseFirestore */; };
 		11E16BC62B38B82500E5DB85 /* TLButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E16BC52B38B82500E5DB85 /* TLButton.swift */; };
 /* End PBXBuildFile section */
 
@@ -91,6 +92,7 @@
 			files = (
 				1106F7D02B16A01200D5E3C5 /* Algorithms in Frameworks */,
 				1106F7D32B16A45C00D5E3C5 /* FirebaseAuth in Frameworks */,
+				11967B9E2B4484D000704481 /* FirebaseFirestore in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -118,6 +120,7 @@
 				1106F7B42B1696FC00D5E3C5 /* ToDoListAppTests */,
 				1106F7BE2B1696FC00D5E3C5 /* ToDoListAppUITests */,
 				1106F7A22B1696F900D5E3C5 /* Products */,
+				11967B9C2B4484D000704481 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -217,6 +220,13 @@
 			path = Other;
 			sourceTree = "<group>";
 		};
+		11967B9C2B4484D000704481 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -236,6 +246,7 @@
 			packageProductDependencies = (
 				1106F7CF2B16A01200D5E3C5 /* Algorithms */,
 				1106F7D22B16A45C00D5E3C5 /* FirebaseAuth */,
+				11967B9D2B4484D000704481 /* FirebaseFirestore */,
 			);
 			productName = ToDoListApp;
 			productReference = 1106F7A12B1696F900D5E3C5 /* ToDoListApp.app */;
@@ -728,6 +739,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 1106F7D12B16A36300D5E3C5 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
 			productName = FirebaseAuth;
+		};
+		11967B9D2B4484D000704481 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1106F7D12B16A36300D5E3C5 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
