@@ -37,11 +37,30 @@ class RegisterViewViewModel: ObservableObject {
         
         let db = Firestore.firestore()
         
-        db.collection("users")
-            .document(id)
-            .setData(newUser.asDictionary())
+        
+        
+        db.collection("users").whereField("email", isEqualTo: email).getDocuments { [weak self] (querySnapshot, err) in
+            if let err = err {
+                print("Error getting documents: \(err)")
+                return
+            } else if querySnapshot!.documents.isEmpty {
+                self?.createFirebaseUser()
+            } else {
+                print("User already exists with this email")
+            }
+        }
     }
     
+    private func createFirebaseUser() {
+        Auth.auth().createUser(withEmail: email, password: password) { [weak self] result, error in
+            guard let userId = result?.user.uid, error == nil else {
+                print("Error creating user: \(error?.localizedDescription ?? "Unknown error")")
+                return
+            }
+            
+            self?.insertUserRecord(id: userId)
+        }
+    }
     
     private func validate() -> Bool {
         guard !name.trimmingCharacters(in: .whitespaces).isEmpty,
@@ -60,3 +79,4 @@ class RegisterViewViewModel: ObservableObject {
     return true
     }
 }
+
