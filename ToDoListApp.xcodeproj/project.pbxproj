@@ -34,6 +34,7 @@
 		1106F7FB2B16BEEA00D5E3C5 /* ToDoListItemViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1106F7FA2B16BEEA00D5E3C5 /* ToDoListItemViewViewModel.swift */; };
 		1106F7FF2B16C3A400D5E3C5 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1106F7FE2B16C3A400D5E3C5 /* HeaderView.swift */; };
 		11967B9E2B4484D000704481 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 11967B9D2B4484D000704481 /* FirebaseFirestore */; };
+		11967BA02B448A5B00704481 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11967B9F2B448A5B00704481 /* Extensions.swift */; };
 		11E16BC62B38B82500E5DB85 /* TLButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E16BC52B38B82500E5DB85 /* TLButton.swift */; };
 /* End PBXBuildFile section */
 
@@ -82,6 +83,7 @@
 		1106F7F82B16BE9D00D5E3C5 /* RegisterViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewViewModel.swift; sourceTree = "<group>"; };
 		1106F7FA2B16BEEA00D5E3C5 /* ToDoListItemViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListItemViewViewModel.swift; sourceTree = "<group>"; };
 		1106F7FE2B16C3A400D5E3C5 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		11967B9F2B448A5B00704481 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		11E16BC52B38B82500E5DB85 /* TLButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TLButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -216,6 +218,7 @@
 				1106F7A82B1696FB00D5E3C5 /* Assets.xcassets */,
 				1106F7D42B16ADE900D5E3C5 /* GoogleService-Info.plist */,
 				1106F7A42B1696F900D5E3C5 /* ToDoListAppApp.swift */,
+				11967B9F2B448A5B00704481 /* Extensions.swift */,
 			);
 			path = Other;
 			sourceTree = "<group>";
@@ -382,6 +385,7 @@
 				1106F7F32B16BE1F00D5E3C5 /* ToDoListViewViewModel.swift in Sources */,
 				1106F7F72B16BE7C00D5E3C5 /* LoginViewViewModel.swift in Sources */,
 				1106F7EB2B16BD0200D5E3C5 /* ToDoListItem.swift in Sources */,
+				11967BA02B448A5B00704481 /* Extensions.swift in Sources */,
 				1106F7F12B16BD9B00D5E3C5 /* ProfileViewViewModel4.swift in Sources */,
 				1106F7E12B16B6CD00D5E3C5 /* NewItemView.swift in Sources */,
 				1106F7F52B16BE5600D5E3C5 /* NewItemViewViewModel.swift in Sources */,
