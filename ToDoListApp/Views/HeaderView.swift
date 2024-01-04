@@ -18,7 +18,7 @@ struct HeaderView: View {
             RoundedRectangle(cornerRadius: 0)
                 .foregroundColor(backgroud)
                 .rotationEffect(Angle(degrees: angle))
-            
+                         
             VStack {
                 Text(title)
                     .font(.system(size: 50))
@@ -29,11 +29,11 @@ struct HeaderView: View {
                     .foregroundColor(Color.white)
                 
             }
-            .padding(.top, 20)
+            .padding(.top, 80)
         }
         .frame(width: UIScreen.main.bounds.width * 3,
-        height: 300)
-        .offset(y: -100)
+        height: 350)
+        .offset(y: -150)
     }
 }
 

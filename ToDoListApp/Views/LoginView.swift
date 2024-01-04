@@ -17,7 +17,11 @@ struct LoginView: View {
                        angle: 15,
                        backgroud: .green)
             
+            
+            
             Form {
+                if !viewModel.errorMessage.isEmpty{ Text(viewModel.errorMessage) .foregroundColor(Color.red)
+                } 
                 TextField("Email Address",
                           text: $viewModel.email)
                 .textFieldStyle(DefaultTextFieldStyle())

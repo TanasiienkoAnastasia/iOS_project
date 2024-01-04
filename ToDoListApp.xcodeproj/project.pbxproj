@@ -83,7 +83,7 @@
 		1106F7FA2B16BEEA00D5E3C5 /* ToDoListItemViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListItemViewViewModel.swift; sourceTree = "<group>"; };
 		1106F7FE2B16C3A400D5E3C5 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
 		11967B9F2B448A5B00704481 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
-		11967BAF2B44BD8300704481 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		11967BAF2B44BD8300704481 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist; name = "GoogleService-Info.plist"; path = "../../Downloads/GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
 		11E16BC52B38B82500E5DB85 /* TLButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TLButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -125,6 +125,7 @@
 				11967B9C2B4484D000704481 /* Frameworks */,
 			);
 			sourceTree = "<group>";
+			usesTabs = 0;
 		};
 		1106F7A22B1696F900D5E3C5 /* Products */ = {
 			isa = PBXGroup;
@@ -194,10 +195,10 @@
 			children = (
 				1106F7EE2B16BD7F00D5E3C5 /* MainViewViewModel.swift */,
 				1106F7F02B16BD9B00D5E3C5 /* ProfileViewViewModel4.swift */,
-				1106F7F22B16BE1F00D5E3C5 /* ToDoListViewViewModel.swift */,
 				1106F7F42B16BE5600D5E3C5 /* NewItemViewViewModel.swift */,
 				1106F7F62B16BE7C00D5E3C5 /* LoginViewViewModel.swift */,
 				1106F7F82B16BE9D00D5E3C5 /* RegisterViewViewModel.swift */,
+				1106F7F22B16BE1F00D5E3C5 /* ToDoListViewViewModel.swift */,
 				1106F7FA2B16BEEA00D5E3C5 /* ToDoListItemViewViewModel.swift */,
 			);
 			path = ViewModels;
@@ -555,7 +556,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"ToDoListApp/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_CFBundleDisplayName = "To Do List\t\t";
+				INFOPLIST_KEY_CFBundleDisplayName = "To Do List";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -565,7 +566,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = IOS.project;
+				PRODUCT_BUNDLE_IDENTIFIER = ToDoListApp.ios.projectNew;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -583,7 +584,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"ToDoListApp/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_CFBundleDisplayName = "To Do List\t\t";
+				INFOPLIST_KEY_CFBundleDisplayName = "To Do List";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -593,7 +594,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = IOS.project;
+				PRODUCT_BUNDLE_IDENTIFIER = ToDoListApp.ios.projectNew;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;

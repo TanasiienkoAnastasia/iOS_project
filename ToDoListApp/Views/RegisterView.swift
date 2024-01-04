@@ -37,6 +37,7 @@ struct RegisterView: View {
                 }
                 .padding()
             }
+            
             Spacer()
         }
     }
