@@ -36,6 +36,8 @@
 		11967BA02B448A5B00704481 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11967B9F2B448A5B00704481 /* Extensions.swift */; };
 		11967BB02B44BD8300704481 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 11967BAF2B44BD8300704481 /* GoogleService-Info.plist */; };
 		11E16BC62B38B82500E5DB85 /* TLButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E16BC52B38B82500E5DB85 /* TLButton.swift */; };
+		7F2F5F7F2B47A4F0003D300C /* ShowWeatherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F2F5F7E2B47A4F0003D300C /* ShowWeatherView.swift */; };
+		7F2F5F812B47A543003D300C /* ShowWeatherViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F2F5F802B47A543003D300C /* ShowWeatherViewViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -85,6 +87,8 @@
 		11967B9F2B448A5B00704481 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		11967BAF2B44BD8300704481 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist; name = "GoogleService-Info.plist"; path = "../../Downloads/GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
 		11E16BC52B38B82500E5DB85 /* TLButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TLButton.swift; sourceTree = "<group>"; };
+		7F2F5F7E2B47A4F0003D300C /* ShowWeatherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowWeatherView.swift; sourceTree = "<group>"; };
+		7F2F5F802B47A543003D300C /* ShowWeatherViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowWeatherViewViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -186,6 +190,7 @@
 				1106F7DE2B16B5FC00D5E3C5 /* ToDoListItemsView.swift */,
 				1106F7FE2B16C3A400D5E3C5 /* HeaderView.swift */,
 				11E16BC52B38B82500E5DB85 /* TLButton.swift */,
+				7F2F5F7E2B47A4F0003D300C /* ShowWeatherView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -200,6 +205,7 @@
 				1106F7F82B16BE9D00D5E3C5 /* RegisterViewViewModel.swift */,
 				1106F7F22B16BE1F00D5E3C5 /* ToDoListViewViewModel.swift */,
 				1106F7FA2B16BEEA00D5E3C5 /* ToDoListItemViewViewModel.swift */,
+				7F2F5F802B47A543003D300C /* ShowWeatherViewViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -377,6 +383,7 @@
 				1106F7F92B16BE9D00D5E3C5 /* RegisterViewViewModel.swift in Sources */,
 				1106F7EF2B16BD7F00D5E3C5 /* MainViewViewModel.swift in Sources */,
 				1106F7E72B16B97A00D5E3C5 /* ToDoListView.swift in Sources */,
+				7F2F5F7F2B47A4F0003D300C /* ShowWeatherView.swift in Sources */,
 				1106F7DF2B16B5FC00D5E3C5 /* ToDoListItemsView.swift in Sources */,
 				11E16BC62B38B82500E5DB85 /* TLButton.swift in Sources */,
 				1106F7E52B16B87800D5E3C5 /* RegisterView.swift in Sources */,
@@ -389,6 +396,7 @@
 				11967BA02B448A5B00704481 /* Extensions.swift in Sources */,
 				1106F7F12B16BD9B00D5E3C5 /* ProfileViewViewModel4.swift in Sources */,
 				1106F7E12B16B6CD00D5E3C5 /* NewItemView.swift in Sources */,
+				7F2F5F812B47A543003D300C /* ShowWeatherViewViewModel.swift in Sources */,
 				1106F7F52B16BE5600D5E3C5 /* NewItemViewViewModel.swift in Sources */,
 				1106F7FB2B16BEEA00D5E3C5 /* ToDoListItemViewViewModel.swift in Sources */,
 			);
