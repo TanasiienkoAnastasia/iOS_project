@@ -9,9 +9,18 @@ import SwiftUI
 
 struct ShowWeatherView: View {
     @ObservedObject var viewModel = ShowWeatherViewViewModel()
+    @State private var cityName: String = ""
 
     var body: some View {
         VStack {
+            TextField("Enter City", text: $cityName, onCommit: {
+                viewModel.city = cityName
+                viewModel.fetchWeatherData()
+            })
+            .padding()
+            .textFieldStyle(RoundedBorderTextFieldStyle())
+            .autocapitalization(.words)
+            
             if let weatherData = viewModel.weatherData {
                 Text("City: \(weatherData.name)")
                     .font(.title)

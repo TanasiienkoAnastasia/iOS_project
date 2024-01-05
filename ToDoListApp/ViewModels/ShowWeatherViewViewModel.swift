@@ -7,12 +7,11 @@
 
 import Foundation
 
-
 class ShowWeatherViewViewModel: ObservableObject {
     @Published var weatherData: WeatherData?
     @Published var error: Error?
 
-    var city: String = "London" // Default city
+    @Published var city: String = "Kyiv" // Default city
 
     private let apiKey = "0e9ada303c0c97306f176f26dbb84875" // Replace with your OpenWeatherMap API key
 
@@ -52,4 +51,3 @@ struct Main: Decodable {
 struct Weather: Decodable {
     let description: String
 }
-
