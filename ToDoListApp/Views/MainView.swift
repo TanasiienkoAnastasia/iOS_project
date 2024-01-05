@@ -14,7 +14,7 @@ struct MainView: View {
         NavigationView {
             if viewModel.isSignedIn, !viewModel.currentUserId.isEmpty {
                 TabView {
-                    ToDoListView(userId: "not forget to paste")                        .tabItem {
+                    ToDoListView(userId: viewModel.currentUserId)                        .tabItem {
                             Label("Home", systemImage: "house")
                         }
                     ProfileView()
