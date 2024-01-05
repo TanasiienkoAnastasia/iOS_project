@@ -24,7 +24,7 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "E55D97C7-DBC9-4CFA-A190-7DC51A595D66"
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ToDoListApp/Views/RegisterView.swift"
@@ -40,7 +40,7 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "480AABD6-AEA0-44BA-9EF9-D9F044692142"
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ToDoListApp/ViewModels/LoginViewViewModel.swift"
@@ -56,16 +56,48 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "343C4F96-E843-45F8-A7B5-05EB6E6F523B"
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ToDoListApp/ViewModels/RegisterViewViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "25"
-            endingLineNumber = "25"
-            landmarkName = "register()"
+            startingLineNumber = "40"
+            endingLineNumber = "40"
+            landmarkName = "insertUserRecord(id:)"
             landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "343C4F96-E843-45F8-A7B5-05EB6E6F523B - 405f12346e1b8627"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;__C.FIRAuthDataResult&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in ToDoListApp.RegisterViewViewModel.register() -&gt; ()"
+                  moduleName = "ToDoListApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yares/antoxus/iOS_project/ToDoListApp/ViewModels/RegisterViewViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "25"
+                  endingLineNumber = "25"
+                  offsetFromSymbolStart = "88">
+               </Location>
+               <Location
+                  uuid = "343C4F96-E843-45F8-A7B5-05EB6E6F523B - 52183944596c662b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (Swift.Optional&lt;__C.FIRAuthDataResult&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in ToDoListApp.RegisterViewViewModel.register() -&gt; ()"
+                  moduleName = "ToDoListApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yares/antoxus/iOS_project/ToDoListApp/ViewModels/RegisterViewViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "40"
+                  endingLineNumber = "40"
+                  offsetFromSymbolStart = "88">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -145,6 +177,134 @@
             endingLineNumber = "8"
             landmarkName = "unknown"
             landmarkType = "0">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "CE5040F5-0FBD-4A56-83AE-AAA4D590D701"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ToDoListApp/ViewModels/RegisterViewViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "23"
+            endingLineNumber = "23"
+            landmarkName = "register()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "89CF8179-2A2F-4256-AC84-5CFD9DC93F36"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ToDoListApp/ViewModels/RegisterViewViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "39"
+            endingLineNumber = "39"
+            landmarkName = "insertUserRecord(id:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "89CF8179-2A2F-4256-AC84-5CFD9DC93F36 - 268230cfdfcf2004"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ToDoListApp.RegisterViewViewModel.insertUserRecord(id: Swift.String) -&gt; ()"
+                  moduleName = "ToDoListApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yares/antoxus/iOS_project/ToDoListApp/ViewModels/RegisterViewViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "39"
+                  endingLineNumber = "39"
+                  offsetFromSymbolStart = "484">
+               </Location>
+               <Location
+                  uuid = "89CF8179-2A2F-4256-AC84-5CFD9DC93F36 - 268230cfdfcf2004"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ToDoListApp.RegisterViewViewModel.insertUserRecord(id: Swift.String) -&gt; ()"
+                  moduleName = "ToDoListApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yares/antoxus/iOS_project/ToDoListApp/ViewModels/RegisterViewViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "39"
+                  endingLineNumber = "39"
+                  offsetFromSymbolStart = "452">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "BA5C41EB-C7B4-4567-A093-8D101294361A"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ToDoListApp/ViewModels/RegisterViewViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "24"
+            endingLineNumber = "24"
+            landmarkName = "register()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "BA5C41EB-C7B4-4567-A093-8D101294361A - 1f656944d4f6f634"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ToDoListApp.RegisterViewViewModel.register() -&gt; ()"
+                  moduleName = "ToDoListApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yares/antoxus/iOS_project/ToDoListApp/ViewModels/RegisterViewViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "24"
+                  endingLineNumber = "24"
+                  offsetFromSymbolStart = "240">
+               </Location>
+               <Location
+                  uuid = "BA5C41EB-C7B4-4567-A093-8D101294361A - 405f12346e1b8604"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;__C.FIRAuthDataResult&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in ToDoListApp.RegisterViewViewModel.register() -&gt; ()"
+                  moduleName = "ToDoListApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yares/antoxus/iOS_project/ToDoListApp/ViewModels/RegisterViewViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "24"
+                  endingLineNumber = "24"
+                  offsetFromSymbolStart = "64">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "EBC8C60F-2551-420B-8267-3126E5A2C21C"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ToDoListApp/ViewModels/RegisterViewViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "25"
+            endingLineNumber = "25"
+            landmarkName = "register()"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>
